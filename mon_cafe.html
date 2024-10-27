@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Café</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #35424a;
+            color: #ffffff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #ffffff;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        section {
+            margin: 20px 0;
+            padding: 20px;
+            background: #ffffff;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #35424a;
+            color: #ffffff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 600px) {
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Bienvenue au Mon Café</h1>
+    <nav>
+        <a href="#about">À Propos</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<div class="container">
+    <section id="about">
+        <h2>À Propos de Nous</h2>
+        <p>Mon Café est un lieu chaleureux où vous pouvez déguster le meilleur café de la ville. Nous nous engageons à vous offrir un service de qualité et des produits frais.</p>
+    </section>
+
+    <section id="menu">
+        <h2>Notre Menu</h2>
+        <ul>
+            <li>Café Noir - 2,50€</li>
+            <li>Cappuccino - 3,00€</li>
+            <li>Thé Vert - 2,00€</li>
+            <li>Gâteaux Maison - 2,50€</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contactez-Nous</h2>
+        <p>Email: contact@moncafe.fr</p>
+        <p>Téléphone: 01 23 45 67 89</p>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Mon Café. Tous droits réservés.</p>
+</footer>
+
+</body>
+</html>
